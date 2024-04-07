@@ -9,5 +9,10 @@ Array.prototype.forEach = function forEach(array, callback) {
 var animals = ["perro", "gato", "conejo"];
 
 animals.forEach(animals, function (animal) {
+  title = document.createElement("h4");
+  title.style.color = "red";
+  document.body.appendChild(title);
+  title.textContent = animal.toUpperCase();
+
   console.log(animal);
 });
