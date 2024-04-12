@@ -9,3 +9,4 @@ Array.prototype.reverse = function reverse(array) {
 
 var animals = ["dog", "cat", "bird", "fish"];
 console.log(animals.reverse());
+console.log(animals);
